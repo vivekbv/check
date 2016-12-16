@@ -161,7 +161,7 @@ showLoading("#main-content");
 dc.loadAwards = function () {
 showLoading("#main-content");
   $ajaxUtils.sendGetRequest(
-    aboutHtml,
+    awardsHtml,
     function (awardsHtml) {
       // Switch CSS class active to awards button
       switchAwardsToActive();
